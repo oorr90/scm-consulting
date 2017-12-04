@@ -1265,7 +1265,7 @@ HOME PAGE: IMAGE AND NAME
 
 .home-intro-section h2 {
     margin-bottom: 20px;
-    font-family: 'Slabo 27px', 'Source Sans Pro', serif;
+    /*font-family: 'Slabo 27px', 'Source Sans Pro', serif;*/
     text-transform: uppercase;
     font-size: 2em;
     letter-spacing: 5px;
@@ -1291,7 +1291,7 @@ HOME PAGE: IMAGE AND NAME
 
 .home-link-section h2 {
     margin-bottom: 40px;
-    font-family: 'Slabo 27px', 'Source Sans Pro', serif;
+    /*font-family: 'Slabo 27px', 'Source Sans Pro', serif;*/
     text-transform: uppercase;
     font-size: 2em;
     letter-spacing: 5px;
@@ -1309,7 +1309,7 @@ HOME PAGE: IMAGE AND NAME
 .single-link-home h3 {
     text-transform: uppercase;
     margin-bottom: 10px;
-    font-family: 'Slabo 27px', 'Source Sans Pro', serif;
+    /*font-family: 'Slabo 27px', 'Source Sans Pro', serif;*/
     letter-spacing: 2px;
 }
 
@@ -1352,6 +1352,18 @@ HOME PAGE: IMAGE AND NAME
 /* ## Entries
 --------------------------------------------- */
 
+.entry-header {
+    color: #2c3e50;
+}
+
+.secondary-page article {
+    line-height: 2;
+}
+
+.secondary-page .content {
+    padding: 20px 5%;
+}
+    
 .entry {
 	background-color: #fff;
 	/*margin-bottom: 40px;
@@ -1396,12 +1408,19 @@ p.entry-meta {
 	margin-bottom: 24px;
 }
 
-.entry-header, .entry-content {
-    margin: 20px 5%;
+.entry-meta .entry-author {
+    display: none;
 }
+
+/*.entry-header, .entry-content {
+    margin: 20px 5%;
+}*/
 
 .entry-header {
     margin-top: 50px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .entry-content  p{
@@ -1526,12 +1545,14 @@ p.entry-meta {
 .sidebar {
 	font-size: 16px;
 	font-size: 1.6rem;
-	margin-bottom: 40px;
+    padding-top: 40px;
+	/*margin-bottom: 40px;*/
 }
 
 .sidebar .widget {
 	background-color: #fff;
-	padding: 40px;
+	padding: 40px 20px;
+    text-align: center;
 }
 
 
