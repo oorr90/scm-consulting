@@ -1089,7 +1089,7 @@ NAVIGATION: PRIMARY
 }
 
 .genesis-nav-menu .sub-menu a {
-	background-color: #fff;
+	background-color: #2c3e50;
 	border: 1px solid #eee;
 	border-top: 0;
 	font-size: 14px;
@@ -1347,6 +1347,22 @@ HOME PAGE: IMAGE AND NAME
     font-weight: 600;
 }
 
+.single-page-button {
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 0px 12px;
+    background-color: #2c3e50;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+.single-page-button a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 600;
+}
 
 
 /* ## Entries
@@ -1363,6 +1379,28 @@ HOME PAGE: IMAGE AND NAME
 .secondary-page .content {
     padding: 20px 5%;
 }
+
+.secondary-page li {
+    font-size: .8em;
+}
+
+.linkedin {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+.single-service {
+    height: 240px;
+}
+
+.one-half:nth-child(even) {
+    margin-left: 0;
+}
+
+.single-service p {
+    font-size: .7em;
+}
+
     
 .entry {
 	background-color: #fff;
@@ -1393,6 +1431,18 @@ HOME PAGE: IMAGE AND NAME
 	background-color: #333;
 	color: #eee;
 }
+
+.resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resource-link {
+    width: 40%;
+    margin-bottom: 1.5em;
+}
+
 
 /* ## Entry Meta
 --------------------------------------------- */
@@ -1426,6 +1476,10 @@ p.entry-meta {
 .entry-content  p{
     font-size: .8em;
     margin-bottom: 20px;
+}
+
+.single-service p {
+    font-size: .7em;
 }
 
 .entry-footer .entry-meta {
