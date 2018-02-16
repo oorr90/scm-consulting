@@ -1,2 +1,2 @@
 # scm-consulting
-Creating a Genesis child theme
+Creating a child theme from the WP Genesis Framework
